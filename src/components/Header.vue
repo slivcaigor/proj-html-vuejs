@@ -135,11 +135,21 @@ export default {
   }
 
   button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: $third_jungle-green;
+    transition: 0.3s;
     border: none;
     padding: 0.813em 0;
     border-radius: 0.313em;
     width: 60%;
+
+
+    &:hover {
+      background-color: $primary_mulled-wine;
+      transition: 0.3s;
+    }
 
     img {
       width: 1.875rem;
@@ -204,14 +214,13 @@ export default {
     padding: 0.125em;
 
     img {
-      cursor: pointer;
       width: 45%;
+      cursor: pointer;
     }
   }
 
   .ms_hero-wave {
     img {
-      z-index: 1;
       position: absolute;
       height: 55%;
       width: 100%;
