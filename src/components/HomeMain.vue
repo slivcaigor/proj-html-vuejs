@@ -134,12 +134,54 @@
       </div>
     </div>
   </section>
+  <!-- Third Section -->
+  <section class="ms_third-section">
+    <div class="ms_wrapper">
+      <div class="d-flex justify-content-around align-items-center text-center">
+        <div>
+          <h4>1.926</h4>
+          <h5>finished sessions</h5>
+        </div>
+        <div>
+          <h4>3.092+</h4>
+          <h5>enrolled learners</h5>
+        </div>
+        <div>
+          <h4>200</h4>
+          <h5>online instructors</h5>
+        </div>
+        <div>
+          <h4>100%</h4>
+          <h5>satisfaction rate</h5>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Third Section
+.ms_third-section {
+  background-color: #FAF8F6;
+  padding: 100px 0;
+
+  h4 {
+    color: $secondary_jungle-green;
+    font-weight: 900;
+    font-size: 50px;
+  }
+
+  h5 {
+    color: $primary_mulled-wine;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+}
 
 // Second Section
 .ms_second-section {
