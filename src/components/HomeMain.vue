@@ -575,12 +575,85 @@
 
     </div>
   </section>
+  <!-- Ninth Section -->
+  <section class="ms_ninth-section">
+    <div class="ms_wrapper">
+      <div class="ms_section-title text-center">
+        <img src="../assets/images/maxcoach-shape-01.png" alt="3 Colored Lines">
+        <img src="../assets/images/maxcoach-shape-02.png" alt="Colored Circle">
+        <img src="../assets/images/icons8-0-per-cento-100.png" alt="Circle Icon">
+        <h5>Start today for getting <span>Online Certification</span></h5>
+        <h2>You can be your own guiding star with our help!</h2>
+        <button>
+          <span>Get started now</span>
+        </button>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Ninth Section
+.ms_ninth-section {
+  background-color: $fourth;
+
+  .ms_section-title {
+    padding-bottom: 100px;
+    position: relative;
+
+    img:nth-of-type(1) {
+      position: absolute;
+      left: 30px;
+      bottom: 150px;
+    }
+
+    img:nth-of-type(2) {
+      position: absolute;
+      right: 0;
+      bottom: 60px;
+    }
+
+    img:nth-of-type(3) {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 5%;
+    }
+
+    button {
+      color: white;
+      margin-top: 30px;
+      font-weight: 700;
+      background-color: $third_jungle-green;
+      transition: 0.3s;
+      border: none;
+      padding: 0.813em 0;
+      border-radius: 0.313em;
+      width: 20%;
+    }
+
+    h5 {
+      color: rgba($primary_mulled-wine, $alpha: 1);
+      font-size: 26px;
+      font-weight: 700;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+
+    h2 {
+      font-size: 35px;
+      font-weight: 700;
+      color: $primary_mulled-wine;
+    }
+  }
+}
 
 // Eighth Section
 .ms_eighth-section {
