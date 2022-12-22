@@ -359,12 +359,127 @@
       </div>
     </div>
   </section>
+  <!-- Sixth Section -->
+  <section class="ms_sixth-section">
+    <div class="ms_wrapper">
+      <div class="row mt-5 justify-content-center">
+        <div class="col-6 ms_underlays">
+          <img src="../assets/images/underlay-shape-grey.svg" alt="Grey Colored Shape">
+          <img src="../assets/images/maxcoach-shape-01.png" alt="Colored 3 Lines">
+          <img src="../assets/images/maxcoach-shape-07.png" alt="Dotted Rectangle">
+          <img src="../assets/images/icons8-0-per-cento-100.png" alt="Circle Icon">
+          <img src="../assets/images/home-5-image-02.png" alt="Guy analyzing code on laptop">
+        </div>
+        <div class="col-6 ms_hero-text">
+          <h5>what are you looking for?</h5>
+          <h2>Learn on your <span>mobile</span> anytime!</h2>
+          <p>Save lessons for later and revise or white notes at any time and on multiple devices on your way. Never
+            interfere with activities of enjoyment or other precious moments.</p>
+          <button>
+            <span>Download Our App</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Sixth Section 
+.ms_sixth-section {
+  padding: 50px 0;
+  margin-top: 400px;
+  height: 700px;
+
+  .ms_underlays {
+    position: relative;
+
+    img:first-child {
+      position: absolute;
+      z-index: 1;
+      width: 80%;
+      left: -140px;
+      bottom: -40px;
+    }
+
+    img:nth-child(2) {
+      position: absolute;
+      z-index: 1;
+      left: -220px;
+      bottom: 270px;
+    }
+
+    img:nth-child(3) {
+      position: absolute;
+      z-index: 1;
+      right: 113px;
+      bottom: 50px;
+    }
+
+    img:nth-child(4) {
+      position: absolute;
+      z-index: 1;
+      top: 50px;
+      right: 120px;
+      width: 11%;
+    }
+
+    img:last-child {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .ms_hero-text {
+    width: 40%;
+    padding: 4.063em 1.563em;
+
+
+    h5 {
+      color: rgba($primary_cod-gray, $alpha: .6);
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 44px;
+      font-weight: 700;
+      padding-top: 20px;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+
+    p {
+      font-size: 15px;
+      padding: 1.675em 0 2em 0;
+      color: rgba($primary_cod-gray, $alpha: .6);
+      font-weight: 500;
+    }
+
+
+    button {
+      color: $primary_white;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $third_jungle-green;
+      transition: 0.3s;
+      border: none;
+      padding: 0.813em 0;
+      border-radius: 0.313em;
+      width: 50%;
+    }
+  }
+}
 
 // Fifth Section
 .ms_fifth-section {
