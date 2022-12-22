@@ -157,12 +157,288 @@
       </div>
     </div>
   </section>
+  <!-- Fourth Section -->
+  <section class="ms_fourth-section">
+    <div class="ms_wrapper">
+      <div class="ms_section-title text-center">
+        <h5>choose where you'd like to begin</h5>
+        <h2>Latest Featured <span>Courses</span></h2>
+      </div>
+      <div class="card-group gap-4">
+        <div class="card">
+          <img src="../assets/images/course-02-480x298.jpg" class="card-img-top"
+            alt="People working on laptops in office">
+          <span class="label">$40.00</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/73ee246daf47502812ccefc84bf02898.jpeg" alt="Profile Avatar">
+              <h6>Blanche Fields</h6>
+            </div>
+            <h5 class="card-title">Learning to Write as a Professional Author</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                20 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                50 Students
+              </span>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/stock-full-hd-03-480x298.jpg" class="card-img-top"
+            alt="Women smiling watching smartphone">
+          <span class="label">Free</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/d0d504142acfde820eef2f11feea6253.jpeg" alt="Profile Avatar">
+              <h6>Maggie Strickland</h6>
+            </div>
+            <h5 class="card-title">Customer-centric Info-Tech Strategies</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                24 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                769 Students
+              </span>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/stock-full-hd-04-480x298.jpg" class="card-img-top"
+            alt="People sitting in a office lounge">
+          <span class="label">$19.00</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/d0d504142acfde820eef2f11feea6253.jpeg" alt="Profile Avatar">
+              <h6>Maggie Strickland</h6>
+            </div>
+            <h5 class="card-title">Open Programming Courses for Everyone: Python</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                17 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                62 Students
+              </span>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="card-group gap-4 mt-5">
+        <div class="card">
+          <img src="../assets/images/stock-full-hd-06-480x298.jpg" class="card-img-top" alt="Guy writing on a notebook">
+          <span class="label">$26.00</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/73ee246daf47502812ccefc84bf02898.jpeg" alt="Profile Avatar">
+              <h6>Blanche Fields</h6>
+            </div>
+            <h5 class="card-title">Learning to Write as a Professional Author</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                14 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                67 Students
+              </span>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/course-featured-image-01-480x298.jpg" class="card-img-top" alt="Women smiling">
+          <span class="label">$39.00</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/d0d504142acfde820eef2f11feea6253.jpeg" alt="Profile Avatar">
+              <h6>Maggie Strickland</h6>
+            </div>
+            <h5 class="card-title">Customer-centric Info-Tech Strategies</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                6 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                51 Students
+              </span>
+            </small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="../assets/images/stock-full-hd-05-480x298.jpg" class="card-img-top"
+            alt="People sitting in a office">
+          <span class="label">$59.00</span>
+          <div class="card-body">
+            <div class="ms_author d-flex gap-3 align-items-center">
+              <img src="../assets/images/d0d504142acfde820eef2f11feea6253.jpeg" alt="Profile Avatar">
+              <h6>Maggie Strickland</h6>
+            </div>
+            <h5 class="card-title">Open Programming Courses for Everyone: Python</h5>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">
+              <span class="me-4">
+                <img src="../assets/icons/page.png" alt="Page Icon">
+                14 Lessons
+              </span>
+              <span>
+                <img src="../assets/icons/user.png" alt="User Icon">
+                76 Students
+              </span>
+            </small>
+          </div>
+        </div>
+      </div>
+      <div class="ms_cta">
+        <a href="#">View all courses &#8594;</a>
+      </div>
+    </div>
+    <span id="ms_wave">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120">
+        <path fill="#ffff" fill-opacity="1"
+          d="M0,32L120,53.3C240,75,480,117,720,117.3C960,117,1200,75,1320,53.3L1440,32L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+        </path>
+      </svg>
+    </span>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Fourth Section
+.ms_fourth-section {
+  background-color: $secondary--background;
+  position: relative;
+
+  #ms_wave {
+    z-index: 1;
+    position: absolute;
+    bottom: -120px;
+    left: 0;
+    right: 0;
+  }
+
+  .ms_cta {
+    padding-top: 70px;
+    text-align: center;
+
+    a {
+      position: relative;
+      z-index: 222;
+      background-color: $secondary_jungle-green;
+      border-radius: 5px;
+      padding: 14px 60px;
+      text-decoration: none;
+      color: $primary_white;
+      font-size: 16px;
+      font-weight: 700;
+    }
+  }
+
+  .card {
+    --bs-card-bg: transparent;
+    --bs-card-border-color: 0;
+    border-radius: 5px !important;
+
+    &:hover {
+      background-color: $primary_white;
+      box-shadow: 0 0 50px 0 rgba($third_gray, $alpha: .3);
+    }
+
+    .label {
+      background-color: $third_jungle-green;
+      border-top-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      color: $primary_white;
+      font-size: 20px;
+      font-weight: bold;
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 0.275em 0.575em;
+    }
+
+    .card-footer {
+      background-color: transparent !important;
+      padding-bottom: 20px;
+    }
+
+    .card-img-top {
+      position: relative;
+      border-top-left-radius: 5px !important;
+      border-top-right-radius: 5px !important;
+    }
+
+    .card-body {
+      h5 {
+        padding-top: 10px;
+        font-size: 25px;
+        line-height: 1.4em;
+        font-weight: 600;
+      }
+    }
+
+    .ms_author {
+      img {
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .text-muted {
+    font-size: 15px;
+
+    img {
+      margin-right: 5px;
+      width: 16px;
+    }
+  }
+
+  .ms_section-title {
+    padding: 100px 0;
+
+    h5 {
+      color: $primary_cod-gray;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 50px;
+      font-weight: 600;
+      padding-top: 20px;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+  }
+}
 
 // Third Section
 .ms_third-section {
