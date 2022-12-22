@@ -382,12 +382,264 @@
       </div>
     </div>
   </section>
+  <!-- Seventh Section -->
+  <section class="ms_seventh-section">
+    <div class="ms_wrapper">
+      <div class="ms_section-title text-center">
+        <h5>get in contact now</h5>
+        <h2>Upcoming <span>Events</span></h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  Texas, US
+                </h6>
+                <h5 class="card-title">Storytelling Workshop</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>22</h3>
+                <h5>nov</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  New York, US
+                </h6>
+                <h5 class="card-title">Painting Art Contest 2020</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>10</h3>
+                <h5>oct</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  Hamburg, Germany
+                </h6>
+                <h5 class="card-title">International Art Fair 2020</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>23</h3>
+                <h5>nov</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  Illionois, US
+                </h6>
+                <h5 class="card-title">Street Performance: Call for Artist</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>15</h3>
+                <h5>dec</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  Illionois, US
+                </h6>
+                <h5 class="card-title">Consumer Food Safety Education Conference</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>22</h3>
+                <h5>jul</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card p-3">
+            <div class="card-body d-flex justify-content-between">
+              <div class="ms_heading-text">
+                <h6>
+                  <span>
+                    <img src="../assets/icons/pin.png" alt="Pin Icon">
+                  </span>
+                  Dubai
+                </h6>
+                <h5 class="card-title">How meditation improve your mental health?</h5>
+              </div>
+              <div class="ms_date text-center">
+                <h3>12</h3>
+                <h5>aug</h5>
+                <a href="#">Get ticket</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ms_events">
+        Exited about our events? <span>View all events &#8594;</span>
+      </div>
+    </div>
+    <span>
+      <svg id="ms_svg-overlay" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,32L120,69.3C240,107,480,181,720,208C960,235,1200,213,1320,202.7L1440,192L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+        </path>
+      </svg>
+    </span>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Seventh Section
+.ms_seventh-section {
+  position: relative;
+
+  #ms_svg-overlay {
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: -400px;
+    position: absolute;
+    transform: rotateY(180deg);
+  }
+
+  .ms_events {
+    position: relative;
+    z-index: 2;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: rgba($primary_mulled-wine, $alpha: .6);
+
+    span {
+      color: $secondary_jungle-green;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+
+  .card {
+    background-color: $third_bg;
+    transition: 0.3s;
+    border: 0;
+
+    &:hover {
+      box-shadow: 0 0 10px 0 rgba($third_gray, $alpha: .3);
+      background-color: $primary_white;
+      transition: 0.3s;
+      border-left: solid $secondary_jungle-green 4px;
+    }
+
+    .card-body {
+      .ms_heading-text {
+        width: 70%;
+      }
+
+      h5 {
+        font-weight: 600;
+        padding-left: 6px;
+        padding-top: 5px
+      }
+
+      h6 {
+        font-size: 16px;
+        color: rgba($primary_cod-gray, $alpha: .5);
+      }
+
+      .ms_date {
+        h3 {
+          color: $secondary_jungle-green;
+          font-size: 50px;
+          font-weight: 500;
+        }
+
+        h5 {
+          text-transform: uppercase;
+          font-size: 18px;
+          padding: 10px 0;
+        }
+
+        a {
+          background-color: $secondary_jungle-green;
+          text-decoration: none;
+          color: $primary_white;
+          font-weight: 700;
+          font-size: 15px;
+          padding: .3em 1.8em;
+          border-radius: 5px;
+          transition: 0.3s;
+        }
+
+        a:hover {
+          transition: 0.3s;
+          background-color: $primary_mulled-wine;
+        }
+      }
+    }
+  }
+
+  .ms_section-title {
+    padding: 100px 0;
+
+    h5 {
+      color: $primary_cod-gray;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-size: 50px;
+      font-weight: 600;
+      padding-top: 20px;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+  }
+}
 
 // Sixth Section 
 .ms_sixth-section {
