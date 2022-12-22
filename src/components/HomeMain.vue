@@ -523,12 +523,148 @@
       </svg>
     </span>
   </section>
+  <!-- Eighth Section -->
+  <section class="ms_eighth-section">
+    <div class="ms_wrapper">
+      <div class="ms_section-title text-center mb-5">
+        <h5>people are praising maxcoach</h5>
+        <h2>What make they <span>love us?</span></h2>
+      </div>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="../assets/images/testimonial-avata-02.jpg" alt="Testimonial Avatar">
+            <div class="card-body">
+              <p>I am free to learn at my own pace, follow my own schedule and choose the subject I
+                like. Great study portal for people like me.</p>
+              <h5>mina hollace</h5>
+              <h6>/ Freelancer</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="../assets/images/testimonial-avata-04.jpg" alt="Testimonial Avatar">
+            <div class="card-body">
+              <p>MaxCoach is my best choice. Their tutors are smart and professional when dealing with students.</p>
+              <h5>madley pondor</h5>
+              <h6>/ IT Specialist</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 text-center">
+            <img src="../assets/images/testimonial-avata-01.jpg" alt="Testimonial Avatar">
+            <div class="card-body">
+              <p>I am happy with their arrangement of lessons and subjects. They reflect a scientific investigation.</p>
+              <h5>luvic dubble</h5>
+              <h6>/ Private Tutor</h6>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="ms_slides">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Eighth Section
+.ms_eighth-section {
+  padding-top: 250px;
+  padding-bottom: 100px;
+  background-color: $fourth;
+
+  .ms_slides {
+    padding-top: 50px;
+    text-align: center;
+
+    .dot {
+      height: 10px;
+      width: 10px;
+      background-color: rgba($primary_mulled-wine, $alpha: .3);
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 20px;
+
+      &:first-child {
+        width: 12px;
+        height: 12px;
+        background-color: rgba($primary_mulled-wine, $alpha: 1);
+        vertical-align: middle;
+      }
+    }
+  }
+
+  .card {
+    position: relative;
+    border: 0;
+    box-shadow: 0 0 20px 0 rgba($third_gray, $alpha: .3);
+
+    .card-body {
+      padding: 100px 20px 50px;
+
+      p {
+        color: $primary_mulled-wine;
+        font-weight: 600;
+        padding-bottom: 20px;
+        font-size: 20px;
+      }
+
+      h5 {
+        color: $primary_black;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 17px;
+        padding: 30px 0 20px 0;
+      }
+    }
+
+    img {
+      border-radius: 50%;
+      position: absolute;
+      width: 40%;
+      transform: translate(80%, -50%);
+    }
+  }
+
+  .ms_section-title {
+    padding: 100px 0;
+
+    h5 {
+      color: rgba($primary_mulled-wine, $alpha: .5);
+      text-transform: uppercase;
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    h2 {
+      font-size: 50px;
+      font-weight: 600;
+      padding-top: 20px;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+  }
+
+}
 
 // Seventh Section
 .ms_seventh-section {
