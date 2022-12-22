@@ -322,12 +322,140 @@
       </svg>
     </span>
   </section>
+  <!-- Fifth Section -->
+  <section class="ms_fifth-section">
+    <div class="ms_wrapper">
+      <div class="row mt-5 justify-content-evenly">
+        <div class="col-6 ms_hero-text">
+          <h5>why hesitate to register?</h5>
+          <h2>Learn At Your Own <span>Pace</span></h2>
+          <ul>
+            <li class="list-group-item">
+              <img src="../assets/icons/checkbox.png" alt="Checkbox Icon">
+              <label class="form-check-label" for="firstCheckbox">Select & customize courses to your preferences</label>
+            </li>
+            <li class="list-group-item">
+              <img src="../assets/icons/checkbox.png" alt="Checkbox Icon">
+              <label class="form-check-label" for="secondCheckbox">Change the tutor and make arrangements</label>
+            </li>
+            <li class="list-group-item">
+              <img src="../assets/icons/checkbox.png" alt="Checkbox Icon">
+              <label class="form-check-label" for="thirdCheckbox">Participate in events to join others</label>
+            </li>
+            <li class="list-group-item">
+              <img src="../assets/icons/checkbox.png" alt="Checkbox Icon">
+              <label class="form-check-label" for="thirdCheckbox">Get the desired certificate delivered at house</label>
+            </li>
+          </ul>
+          <button>
+            <span>Get started for free</span>
+          </button>
+        </div>
+        <div class="col-6 ms_underlays">
+          <img src="../assets/images/underlay-shape-grey.svg" alt="Grey Colored Shape">
+          <img src="../assets/images/maxcoach-shape-05.png" alt="Dotted Shape">
+          <img src="../assets/images/home-5-image-01.png" alt="Guy analyzing code on laptop">
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Fifth Section
+.ms_fifth-section {
+  padding-top: 200px;
+  background-color: $primary_white;
+  height: 500px;
+
+  .ms_underlays {
+    position: relative;
+
+    img:first-child {
+      position: absolute;
+      z-index: 1;
+      width: 70%;
+      right: 280px;
+      bottom: -20px;
+    }
+
+    img:nth-child(2) {
+      position: absolute;
+      z-index: 1;
+      right: 80px;
+      bottom: 80px;
+    }
+
+    img:last-child {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .list-group-item {
+    img {
+      padding-right: 10px;
+    }
+  }
+
+  .ms_hero-text {
+    width: 40%;
+    padding: 4.063em 1.563em;
+
+    ul {
+      display: flex;
+      font-weight: 600;
+      color: rgba($primary_cod-gray, $alpha: .6);
+      flex-direction: column;
+      gap: 10px;
+      padding: 30px 0;
+    }
+
+    h5 {
+      color: rgba($primary_cod-gray, $alpha: .6);
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+
+    h2 {
+      font-size: 60px;
+      font-weight: 600;
+      padding-top: 20px;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+
+    p {
+      font-size: 18px;
+      padding: 1.875em 0 2.5em 0;
+      color: rgba($primary_mulled-wine, $alpha: .7);
+      font-weight: 600;
+    }
+
+
+    button {
+      color: $primary_white;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: $third_jungle-green;
+      transition: 0.3s;
+      border: none;
+      padding: 0.813em 0;
+      border-radius: 0.313em;
+      width: 50%;
+    }
+  }
+}
 
 // Fourth Section
 .ms_fourth-section {
