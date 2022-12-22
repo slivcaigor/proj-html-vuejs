@@ -68,12 +68,157 @@
       </div>
     </div>
   </section>
+  <!-- Second Section -->
+  <section class="ms_second-section">
+    <div class="ms_wrapper">
+      <div class="row mt-5 justify-content-between ms_index position-relative">
+        <div class="col-6">
+          <img src="../assets/images/underlay-shape-lilla.svg" alt="Lilla Colored Shape">
+          <img src="../assets/images/about-us-03-image-01.png" alt="Guy cheering over laptop screen">
+        </div>
+        <div class="col-6 ms_hero-text">
+          <h5>dream with <strong>maxcoach</strong></h5>
+          <h2 class="ms_section-heading">Construct A <span>Stunning</span> Career Perspective</h2>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                  aria-expanded="true" aria-controls="collapseOne">
+                  Multiple Platforms Supported for Teaching & Studying
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via
+                  material downloads. We know things aren't supposed to be devoured in a short time, you can always
+                  access our knowledge from any device.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Multiple Course Participation at the Same Time
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via
+                  material downloads. We know things aren't supposed to be devoured in a short time, you can always
+                  access our knowledge from any device.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Track Study Progress & Deliver Prompt Feedback
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  MaxCoach supports the act of teaching and learning on multiple platforms like online or offline via
+                  material downloads. We know things aren't supposed to be devoured in a short time, you can always
+                  access our knowledge from any device.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
 @use '../styles/general.scss' as *;
 @use '../styles/partials/mixins' as *;
 @use '../styles/partials/variables' as *;
+
+// Second Section
+.ms_second-section {
+  padding-top: 50px;
+  background-color: $secondary--background;
+  padding-bottom: 100px;
+
+  .col-6 {
+    img:first-child {
+      position: absolute;
+      z-index: 1;
+      width: 30%;
+      left: -100px;
+      bottom: 70px;
+    }
+
+    img:last-child {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .ms_hero-text {
+    .accordion {
+      --bs-accordion-btn-focus-box-shadow: #62C5B5;
+      --bs-accordion-btn-focus-border-color: #62C5B5;
+    }
+
+    #accordionExample {
+      --bs-accordion-border-color: none;
+      --bs-accordion-active-color: $primary_white;
+      --bs-accordion-btn-icon: url("../assets/icons/add.png");
+      --bs-accordion-btn-active-icon: url("../assets/icons/minus.png");
+      --bs-accordion-btn-icon-width: 1.7rem;
+
+      .accordion-item {
+        border-radius: 5px;
+        box-shadow: 0 0 10px 0 rgba($third_gray, $alpha: .3);
+        background-color: $primary_white;
+
+        &:nth-child(2) {
+          margin: 30px 0;
+        }
+
+        .accordion-button {
+          font-weight: 700;
+          font-size: 16px;
+          color: rgba($primary_black, $alpha: .6);
+          border-radius: 5px;
+        }
+
+        .accordion-button:not(.collapsed) {
+          color: rgba($color: $primary_white, $alpha: 1);
+          background-color: $shadow;
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: 0;
+        }
+      }
+    }
+
+    h5 {
+      color: $primary_cod-gray;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    .ms_section-heading {
+      font-size: 50px;
+      font-weight: 600;
+      padding: 20px 0 40px 0;
+      color: $primary_mulled-wine;
+
+      span {
+        font-weight: 500;
+        color: $third_jungle-green;
+      }
+    }
+  }
+}
 
 // First Section
 .ms_first-section {
